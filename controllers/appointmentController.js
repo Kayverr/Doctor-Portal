@@ -4,7 +4,6 @@ import {
   completeAppointment,
   getPatientAppointmentInfo
 } from "../services/appointmentService.js";
-
 // Fetch all appointments
 export const fetchAppointments =
 async (req, res) => {
@@ -31,7 +30,6 @@ async (req, res) => {
   }
 
 };
-
 // Fetch daily appointments
 export const fetchDailyAppointments =
 async (req, res) => {
@@ -77,7 +75,6 @@ async (req, res) => {
   }
 
 };
-
 // Fetch weekly appointments
 export const fetchWeeklyAppointments =
 async (req, res) => {
@@ -128,7 +125,6 @@ async (req, res) => {
   }
 
 };
-
 // Accept appointment
 export const accept =
 async (req, res) => {
@@ -152,7 +148,6 @@ async (req, res) => {
   }
 
 };
-
 // Complete appointment
 export const complete =
 async (req, res) => {
@@ -176,7 +171,6 @@ async (req, res) => {
   }
 
 };
-
 export const fetchPatientInfoPerAppointment =
 async (req, res) => {
 
